@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memoria</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section class="section1">
+            <h1 class="declaracion">Memory Game</h1>
+            <table>
+                <tr>
+                    <td><button id="0" onclick="mostrar(0)"></button></td>
+                    <td><button id="1" onclick="mostrar(1)"></button></td>
+                    <td><button id="2" onclick="mostrar(2)"></button></td>
+                    <td><button id="3" onclick="mostrar(3)"></button></td>
+                </tr>
+                <tr>
+                    <td><button id="4" onclick="mostrar(4)"></button></td>
+                    <td><button id="5" onclick="mostrar(5)"></button></td>
+                    <td><button id="6" onclick="mostrar(6)"></button></td>
+                    <td><button id="7" onclick="mostrar(7)"></button></td>
+                </tr>
+                <tr>
+                    <td><button id="8" onclick="mostrar(8)"></button></td>
+                    <td><button id="9" onclick="mostrar(9)"></button></td>
+                    <td><button id="10" onclick="mostrar(10)"></button></td>
+                    <td><button id="11" onclick="mostrar(11)"></button></td>
+                </tr>
+                <tr>
+                    <td><button id="12" onclick="mostrar(12)"></button></td>
+                    <td><button id="13" onclick="mostrar(13)"></button></td>
+                    <td><button id="14" onclick="mostrar(14)"></button></td>
+                    <td><button id="15" onclick="mostrar(15)"></button></td>
+                </tr>
+            </table>
+        </section>
+        <section class="section2">
+            <h2 id="pares" class="estadistica">Pares Encontrados: 0</h2>
+            <h2 id="t_falta" class="estadistica">Tiempo: 30 seg</h2>
+            <h2 id="Move" class="estadistica">Movimientos: 0</h2>
+            <button id="reiniciar">Reiniciar</button>
+        </section>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
